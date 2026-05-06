@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Fondo -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1430"/>
+      <stop offset="100%" stop-color="#14266b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#b5dd3f" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#b5dd3f" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#b5dd3f" stroke-width="0.5" opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Logo box -->
+  <g transform="translate(80, 90)">
+    <rect width="180" height="90" fill="#1d3b8c" stroke="#b5dd3f" stroke-width="4" rx="6"/>
+    <text x="90" y="62" font-family="Arial Black, sans-serif" font-weight="900" font-size="44" fill="white" text-anchor="middle" letter-spacing="2">CRONO</text>
+  </g>
+
+  <!-- Tag superior -->
+  <line x1="80" y1="240" x2="160" y2="240" stroke="#b5dd3f" stroke-width="2"/>
+  <text x="180" y="247" font-family="Courier New, monospace" font-weight="700" font-size="18" fill="#b5dd3f" letter-spacing="4">TALLER MECÁNICO · CIUDAD DE LA COSTA</text>
+
+  <!-- Título principal -->
+  <text x="80" y="340" font-family="Arial Black, sans-serif" font-weight="900" font-size="84" fill="white" letter-spacing="-2">CRONO</text>
+  <text x="80" y="430" font-family="Arial Black, sans-serif" font-weight="900" font-size="84" fill="white" letter-spacing="-2">SERVICIO</text>
+  <text x="80" y="520" font-family="Arial Black, sans-serif" font-weight="900" font-size="84" font-style="italic" fill="#b5dd3f" letter-spacing="-2">AUTOMOTRIZ.</text>
+
+  <!-- Subtítulo -->
+  <text x="80" y="575" font-family="Arial, sans-serif" font-weight="400" font-size="22" fill="#b8c4e8">Mecánica · Chapa · Pintura · Detallado · Lavados</text>
+
+  <!-- Recuadro derecho con servicios -->
+  <g transform="translate(720, 170)">
+    <rect width="400" height="290" fill="#1d3b8c" stroke="#b5dd3f" stroke-width="3" rx="4"/>
+
+    <!-- Servicios listados -->
+    <g font-family="Arial, sans-serif" font-weight="900" fill="white" font-size="28">
+      <text x="30" y="60" letter-spacing="1">MECÁNICA</text>
+      <text x="370" y="60" text-anchor="end" fill="#b5dd3f">→</text>
+      <line x1="30" y1="78" x2="370" y2="78" stroke="#b5dd3f" stroke-width="1" opacity="0.3"/>
+
+      <text x="30" y="118" letter-spacing="1">CHAPA</text>
+      <text x="370" y="118" text-anchor="end" fill="#b5dd3f">→</text>
+      <line x1="30" y1="136" x2="370" y2="136" stroke="#b5dd3f" stroke-width="1" opacity="0.3"/>
+
+      <text x="30" y="176" letter-spacing="1">PINTURA</text>
+      <text x="370" y="176" text-anchor="end" fill="#b5dd3f">→</text>
+      <line x1="30" y1="194" x2="370" y2="194" stroke="#b5dd3f" stroke-width="1" opacity="0.3"/>
+
+      <text x="30" y="234" letter-spacing="1">DETALLADO</text>
+      <text x="370" y="234" text-anchor="end" fill="#b5dd3f">→</text>
+      <line x1="30" y1="252" x2="370" y2="252" stroke="#b5dd3f" stroke-width="1" opacity="0.3"/>
+
+      <text x="30" y="280" letter-spacing="1">LAVADOS</text>
+      <text x="370" y="280" text-anchor="end" fill="#b5dd3f">→</text>
+    </g>
+  </g>
+
+  <!-- Footer con teléfono -->
+  <g transform="translate(720, 510)">
+    <rect width="400" height="60" fill="#b5dd3f" rx="3"/>
+    <text x="200" y="40" font-family="Arial Black, sans-serif" font-weight="900" font-size="26" fill="#14266b" text-anchor="middle" letter-spacing="2">099 708 906</text>
+  </g>
+</svg>
